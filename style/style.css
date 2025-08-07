@@ -95,9 +95,14 @@ header{
 .cajas1{
     display: flex;
     gap: 30px;
-    justify-content: space-around;
-    padding: 40px;
+    /* justify-content: space-around; */
+    justify-content: center;
+    padding: 30px;
     
+}
+
+.img1{
+    width: 100%;
 }
 
 .caja1{
@@ -130,7 +135,8 @@ header{
 
 .caja2{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     gap: 70px;
     padding: 80px;
     
@@ -174,5 +180,239 @@ footer{
 
 @media(max-width: 1279px){
 
+    .seccion1{
+        background-position: 1000px;
+        background-position-y: -20px;
+        background-size: 125%;
+        height: 610px;
+        
+    }
+
+    .titulo1{
+        font-size: 110px;
+    }
+
+    .parte1{
+        padding-top: 140px;
+        margin-left: 40px;
+    }
     
+    .caja2{
+        gap: 50px;
+        padding: 40px;
+        /* max-width: 921px; */
+    }
+
+    .parte3{
+        width: 30%;
+    }
+
+    .boton2{
+        font-size: 15px;
+        padding: 12px 77px;
+    }
+    
+}
+
+
+@media(max-width: 920px) {
+
+    .seccion1{
+        background-position: 1000px;
+        background-position-y: 0px;
+        background-size: 145%;
+        
+    }
+
+    .parrafo1{
+        font-size: 20px;
+    }
+
+    .boton1{
+        font-size: 20px;
+    }
+
+    .parte1{
+        padding-top: 170px;
+    }
+
+    .seccion2{
+        height: 880px;
+    }
+
+    .parte2{
+        padding-top: 60px;
+    }
+
+    .titulo2{
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+
+    .parrafo2{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .caja2{
+        gap: 40px;
+        padding: 30px;
+    }
+
+    .img5{
+        width: 45%;
+    }
+
+    .boton2{
+        font-size: 12px;
+        padding: 11px 67px;
+    }
+
+    .titulo3{
+        font-size: 25px;
+    }
+
+    .parrafo3{
+        font-size: 15px;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+
+    header{
+        padding: 10px;
+    }
+
+    .imgArriba1{
+
+    width: 20px;
+    padding-top: 10px;
+}
+
+    .imgArriba{
+        width: 54%;
+    }
+
+    .seccion1{
+        background-position: 00px;
+        background-size: 120%;
+        height: 300px;
+        
+    }
+
+
+    .parte1{
+        padding-top: 20px;
+    }
+
+    .titulo1{
+        font-size: 60px;
+    }
+
+    .parrafo1{
+        font-size: 15px;
+    }
+
+    .boton1{
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 11px 57px;
+    }
+
+    .cajas1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .caja1{
+        width: 70%;
+    }
+
+    .seccion2{
+        height: 1690px;
+    }
+
+    .caja2{
+        flex-wrap: wrap;
+    }
+
+    .parte3{
+        width: 45%;
+    }
+
+    .boton2{
+        padding: 10px 47px;
+    }
+
+    footer{
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    
+}
+
+@media(max-width: 480px) {
+
+    .seccion1{
+        height: 200px;
+    }
+
+    .parte1{
+        padding-top: 0px;
+        margin-left: 10px;
+    }
+
+    .titulo1{
+        font-size: 40px;
+    }
+
+    .parrafo1{
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .boton1{
+        font-size: 11px;
+        padding: 10px 37px;
+    }
+
+    .seccion2{
+        height: 1500px;
+    }
+
+    .parte2{
+        padding-top: 20px;
+    }
+
+
+    .titulo2{
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    .parrafo2{
+        font-size: 20px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .caja1{
+        width: 85%;
+    }
+
+    .parte3{
+        width: 80%;
+    }
+
+    footer{
+        font-size: 12px;
+        padding: 20px;
+    }
 }
